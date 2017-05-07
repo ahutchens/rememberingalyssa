@@ -1,0 +1,19 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><title>The HTML5 Herald</title><meta name="description" content="The HTML5 Herald"><meta name="Austin Babcock" content="SitePoint"><link rel="stylesheet" href="assets/css/style.css"><!--if lt IE 9script(src='https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js')      --></head><body><header><ul> <a href="donate.html"><li class="donate" id="button">DONATE        </li></a><a href="contact.html"><li>Contact Us</li></a><a href="scholarship.html"><li>Scholarships</li></a><a href="news.html"><li>News</li></a><li class="about"><ul class="drop-menu">Events<li class="c"> </li><li class="about" id="a"><ul class="drop-menu-sub" id="sub"><a href="alyssaride.html" onclick="sub()"> Alyssa's Ride<a href="alyssaride.html"><li id="suba">Event</li></a><a href="sponsors.html"><li id="subb">Sponsors</li></a><a href="shirt.html"><li id="subc">Shirts</li></a><a href="media.html"><li id="subd">Media</li></a></a></ul></li></ul></li><li class="about"><ul class="drop-menu" id="d"><a href="#" onclick="myFunction()">About Us<li class="c"></li><a href="ourmission.html"><li class="a">Our Mission</li></a><a href="ourgiving.html"><li class="b">Our Giving</li></a></a></ul></li></ul></header><div id="ourmissionheader"><img src="assets/img/butterFly1.jpg" id="butterfly1"><div class="headerimg"><img src="assets/img/Logo2.jpg" id="logosmall"><img src="assets/img/bigarc.png" id="bigarc"></div><img src="assets/img/butterfly2.jpg" id="butterfly2"></div><div id="ourmissioncontent"><h2>Our Mission      </h2><p>Remembering Alyssa, Inc. was established in memory of Alyssa Hutchens who passed away unexpectedly at the short age of 16, focusing on raising money to empower youth and adults to make a difference through education, make a hospital experience more comfortable for children, keep families with hospitalized children close to each other, and give hope through clean water to those in Uganda, Africa.</p><p>Remembering Alyssa, Inc. is recognized as a 501(c)(3) public charity.  As a 501(c)(3) public charity, your donations are tax deductible.  Ride registrations are not tax deductible.  </p></div></body><a href="https://www.facebook.com/Remembering-Alyssa-931441953599142/" target="_blank"><img src="assets/img/fb.jpg" id="fb"></a><script src="assets/js/scripts.js"></script><script>function myFunction() {
+  var x = document.getElementById('d');
+if (x.className === 'drop-menu') {
+  x.className = 'drop-menu-down';
+} else {
+
+  x.className = 'drop-menu';
+  }
+  }
+
+  function sub() {
+    var x = document.getElementById('sub');
+  if (x.className === 'drop-menu-sub') {
+    x.className = 'drop-menu-down';
+  } else {
+  
+    x.className = 'drop-menu-sub';
+    }
+    }  </script></html>
