@@ -1,0 +1,1039 @@
+/*! normalize.css v5.0.0 | MIT License | github.com/necolas/normalize.css */
+/**
+ * 1. Change the default font family in all browsers (opinionated).
+ * 2. Correct the line height in all browsers.
+ * 3. Prevent adjustments of font size after orientation changes in
+ *    IE on Windows Phone and in iOS.
+ */
+/* Document
+   ========================================================================== */
+html {
+  font-family: sans-serif;
+  /* 1 */
+  line-height: 1.15;
+  /* 2 */
+  -ms-text-size-adjust: 100%;
+  /* 3 */
+  -webkit-text-size-adjust: 100%;
+  /* 3 */ }
+/* Sections
+   ========================================================================== */
+/**
+ * Remove the margin in all browsers (opinionated).
+ */
+body {
+  margin: 0; }
+/**
+ * Add the correct display in IE 9-.
+ */
+article, aside, footer, header, nav, section {
+  display: block; }
+/**
+ * Correct the font size and margin on `h1` elements within `section` and
+ * `article` contexts in Chrome, Firefox, and Safari.
+ */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0; }
+/* Grouping content
+   ========================================================================== */
+/**
+ * Add the correct display in IE 9-.
+ * 1. Add the correct display in IE.
+ */
+figcaption, figure, main {
+  /* 1 */
+  display: block; }
+/**
+ * Add the correct margin in IE 8.
+ */
+figure {
+  margin: 1em 40px; }
+/**
+ * 1. Add the correct box sizing in Firefox.
+ * 2. Show the overflow in Edge and IE.
+ */
+hr {
+  box-sizing: content-box;
+  /* 1 */
+  height: 0;
+  /* 1 */
+  overflow: visible;
+  /* 2 */ }
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+pre {
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */ }
+/* Text-level semantics
+   ========================================================================== */
+/**
+ * 1. Remove the gray background on active links in IE 10.
+ * 2. Remove gaps in links underline in iOS 8+ and Safari 8+.
+ */
+a {
+  background-color: transparent;
+  /* 1 */
+  -webkit-text-decoration-skip: objects;
+  /* 2 */ }
+/**
+ * Remove the outline on focused links when they are also active or hovered
+ * in all browsers (opinionated).
+ */
+a:active, a:hover {
+  outline-width: 0; }
+/**
+ * 1. Remove the bottom border in Firefox 39-.
+ * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+ */
+abbr[title] {
+  border-bottom: none;
+  /* 1 */
+  text-decoration: underline;
+  /* 2 */
+  text-decoration: underline dotted;
+  /* 2 */ }
+/**
+ * Prevent the duplicate application of `bolder` by the next rule in Safari 6.
+ */
+b, strong {
+  font-weight: inherit; }
+/**
+ * Add the correct font weight in Chrome, Edge, and Safari.
+ */
+b, strong {
+  font-weight: bolder; }
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+code, kbd, samp {
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */ }
+/**
+ * Add the correct font style in Android 4.3-.
+ */
+dfn {
+  font-style: italic; }
+/**
+ * Add the correct background and color in IE 9-.
+ */
+mark {
+  background-color: #ff0;
+  color: #000; }
+/**
+ * Add the correct font size in all browsers.
+ */
+small {
+  font-size: 80%; }
+/**
+ * Prevent `sub` and `sup` elements from affecting the line height in
+ * all browsers.
+ */
+sub, sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline; }
+sub {
+  bottom: -0.25em; }
+sup {
+  top: -0.5em; }
+/* Embedded content
+   ========================================================================== */
+/**
+ * Add the correct display in IE 9-.
+ */
+audio, video {
+  display: inline-block; }
+/**
+ * Add the correct display in iOS 4-7.
+ */
+audio:not([controls]) {
+  display: none;
+  height: 0; }
+/**
+ * Remove the border on images inside links in IE 10-.
+ */
+img {
+  border-style: none; }
+/**
+ * Hide the overflow in IE.
+ */
+svg:not(:root) {
+  overflow: hidden; }
+/* Forms
+   ========================================================================== */
+/**
+ * 1. Change the font styles in all browsers (opinionated).
+ * 2. Remove the margin in Firefox and Safari.
+ */
+button, input, optgroup, select, textarea {
+  font-family: sans-serif;
+  /* 1 */
+  font-size: 100%;
+  /* 1 */
+  line-height: 1.15;
+  /* 1 */
+  margin: 0;
+  /* 2 */ }
+/**
+ * Show the overflow in IE.
+ * 1. Show the overflow in Edge.
+ */
+button, input {
+  /* 1 */
+  overflow: visible; }
+/**
+ * Remove the inheritance of text transform in Edge, Firefox, and IE.
+ * 1. Remove the inheritance of text transform in Firefox.
+ */
+button, select {
+  /* 1 */
+  text-transform: none; }
+/**
+ * 1. Prevent a WebKit bug where (2) destroys native `audio` and `video`
+ *    controls in Android 4.
+ * 2. Correct the inability to style clickable types in iOS and Safari.
+ */
+button, html [type="button"], [type="reset"], [type="submit"] {
+  -webkit-appearance: button;
+  /* 2 */ }
+/**
+ * Remove the inner border and padding in Firefox.
+ */
+button::-moz-focus-inner, [type="button"]::-moz-focus-inner, [type="reset"]::-moz-focus-inner, [type="submit"]::-moz-focus-inner {
+  border-style: none;
+  padding: 0; }
+/**
+ * Restore the focus styles unset by the previous rule.
+ */
+button:-moz-focusring, [type="button"]:-moz-focusring, [type="reset"]:-moz-focusring, [type="submit"]:-moz-focusring {
+  outline: 1px dotted ButtonText; }
+/**
+ * Change the border, margin, and padding in all browsers (opinionated).
+ */
+fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em; }
+/**
+ * 1. Correct the text wrapping in Edge and IE.
+ * 2. Correct the color inheritance from `fieldset` elements in IE.
+ * 3. Remove the padding so developers are not caught out when they zero out
+ *    `fieldset` elements in all browsers.
+ */
+legend {
+  box-sizing: border-box;
+  /* 1 */
+  color: inherit;
+  /* 2 */
+  display: table;
+  /* 1 */
+  max-width: 100%;
+  /* 1 */
+  padding: 0;
+  /* 3 */
+  white-space: normal;
+  /* 1 */ }
+/**
+ * 1. Add the correct display in IE 9-.
+ * 2. Add the correct vertical alignment in Chrome, Firefox, and Opera.
+ */
+progress {
+  display: inline-block;
+  /* 1 */
+  vertical-align: baseline;
+  /* 2 */ }
+/**
+ * Remove the default vertical scrollbar in IE.
+ */
+textarea {
+  overflow: auto; }
+/**
+ * 1. Add the correct box sizing in IE 10-.
+ * 2. Remove the padding in IE 10-.
+ */
+[type="checkbox"], [type="radio"] {
+  box-sizing: border-box;
+  /* 1 */
+  padding: 0;
+  /* 2 */ }
+/**
+ * Correct the cursor style of increment and decrement buttons in Chrome.
+ */
+[type="number"]::-webkit-inner-spin-button, [type="number"]::-webkit-outer-spin-button {
+  height: auto; }
+/**
+ * 1. Correct the odd appearance in Chrome and Safari.
+ * 2. Correct the outline style in Safari.
+ */
+[type="search"] {
+  -webkit-appearance: textfield;
+  /* 1 */
+  outline-offset: -2px;
+  /* 2 */ }
+/**
+ * Remove the inner padding and cancel buttons in Chrome and Safari on macOS.
+ */
+[type="search"]::-webkit-search-cancel-button, [type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none; }
+/**
+ * 1. Correct the inability to style clickable types in iOS and Safari.
+ * 2. Change font properties to `inherit` in Safari.
+ */
+::-webkit-file-upload-button {
+  -webkit-appearance: button;
+  /* 1 */
+  font: inherit;
+  /* 2 */ }
+/* Interactive
+   ========================================================================== */
+/*
+ * Add the correct display in IE 9-.
+ * 1. Add the correct display in Edge, IE, and Firefox.
+ */
+details, menu {
+  display: block; }
+/*
+ * Add the correct display in all browsers.
+ */
+summary {
+  display: list-item; }
+/* Scripting
+   ========================================================================== */
+/**
+ * Add the correct display in IE 9-.
+ */
+canvas {
+  display: inline-block; }
+/**
+ * Add the correct display in IE.
+ */
+template {
+  display: none; }
+/* Hidden
+   ========================================================================== */
+/**
+ * Add the correct display in IE 10-.
+ */
+[hidden] {
+  display: none; }
+html {
+  overflow-x: hidden; }
+body {
+  overflow-x: hidden; }
+.gigantic, .huge, .large, .bigger, .big, h1, h2, h3, h4, h5, h6 {
+  color: #FF8300;
+  font-weight: bold; }
+.gigantic {
+  font-size: 110px;
+  line-height: 1.09;
+  letter-spacing: -2px; }
+.huge, h1 {
+  font-size: 68px;
+  line-height: 1.05;
+  letter-spacing: -1px; }
+.large, h2 {
+  font-size: 42px;
+  line-height: 1.14; }
+.bigger, h3 {
+  font-size: 26px;
+  line-height: 1.38; }
+.big, h4 {
+  font-size: 22px;
+  line-height: 1.38; }
+.small, small {
+  font-size: 10px;
+  line-height: 1.2; }
+p {
+  background: white;
+  text-indent: 10px;
+  margin: 0 0 20px 0;
+  font-size: 16px; }
+em {
+  font-style: italic; }
+strong {
+  font-weight: bold; }
+hr {
+  border: solid #ddd;
+  border-width: 1px 0 0;
+  clear: both;
+  margin: 10px 0 30px;
+  height: 0; }
+a {
+  color: #FF8300;
+  text-decoration: none;
+  outline: 0; }
+a:hover, a:focus {
+  color: #ffb566; }
+::-moz-selection {
+  background: #FFF498; }
+::selection {
+  background: #FFF498; }
+::-moz-selection {
+  background: #FFF498; }
+img::-moz-selection {
+  background: transparent; }
+img::selection {
+  background: transparent; }
+img::-moz-selection {
+  background: transparent; }
+body {
+  -webkit-tap-highlight-color: #FFF498; }
+body {
+  background: white;
+  font-size: 14px;
+  line-height: 1.6;
+  font-family: Georgia,Times,Times New Roman,serif;
+  color: Black;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-size-adjust: 100%; }
+#button {
+  text-align: center;
+  width: 150px;
+  background: #FF8300;
+  border-radius: 20px;
+  box-shadow: 3px 3px 5px grey, inset 0 -1px 1px rgba(0, 0, 0, 0.5), inset 0 1px 1px rgba(255, 255, 255, 0.8);
+  padding: 4px 30px;
+  color: black;
+  margin-top: 4px; }
+ul #button {
+  width: inherit; }
+#button:hover {
+  color: black;
+  text-shadow: 1px 1px 1px grey;
+  box-shadow: none; }
+header ul a {
+  color: black; }
+#fb {
+  width: 36px !important;
+  height: 36px !important;
+  min-width: 36px !important;
+  min-height: 36px !important;
+  position: fixed;
+  right: 15px;
+  bottom: 15px; }
+.logo1 {
+  float: left;
+  margin-left: 15px;
+  width: 260px;
+  height: 80px; }
+.headerimg {
+  text-align: center;
+  width: 800px;
+  margin: 100px auto;
+  padding-top: 100px;
+  clear: right; }
+#butterfly1 {
+  z-index: -1;
+  position: absolute;
+  margin-right: 0;
+  left: -60px;
+  top: 200px;
+  width: 500px;
+  height: 500px; }
+#butterfly2 {
+  z-index: -1;
+  position: absolute;
+  right: -120px;
+  top: 300px;
+  width: 500px;
+  height: 400px; }
+.alyssa {
+  width: 275px;
+  height: 439px;
+  display: block;
+  float: left;
+  padding-right: 15px; }
+.alyssa2 {
+  width: 200px;
+  height: 370px;
+  display: block;
+  float: right;
+  padding-left: 15px; }
+.Superhero {
+  width: 200px;
+  height: 364px;
+  display: block;
+  float: right;
+  padding-right: 15px; }
+#family {
+  width: 319px;
+  height: 212px;
+  text-align: center; }
+#event {
+  width: 674px;
+  height: 364px;
+  margin-top: 100px; }
+#eventheader {
+  clear: left;
+  text-align: center; }
+#eventpic {
+  padding-right: 15px;
+  float: left;
+  width: 312px;
+  height: 209px; }
+#contactlogo1 {
+  margin-bottom: 25px;
+  width: 374px;
+  height: 108px; }
+#contactheart {
+  width: 285px;
+  height: 222px; }
+#newsheader {
+  padding-top: 100px;
+  text-align: center;
+  clear: right; }
+#newsheader img {
+    width: 640px;
+    height: 409px; }
+#newspic1, #newspic2, #newspic3, #newspic4 {
+  float: left;
+  margin-right: 20px;
+  width: 298px;
+  height: 240px;
+  overflow: hidden;
+  box-shadow: 3px 3px 5px grey; }
+#newspic1 img, #newspic2 img, #newspic3 img, #newspic4 img {
+    width: 320px;
+    height: 285px; }
+#newspic2 {
+  float: right;
+  margin-left: 20px; }
+#newspic2 img {
+    width: 298px;
+    height: 240px; }
+#newspic3 {
+  width: 177px;
+  height: 210px;
+  float: left;
+  margin-right: 20px; }
+#newspic3 img {
+    margin-top: -30px;
+    width: 196px;
+    height: 294px; }
+#newspic4 {
+  float: right;
+  width: 229px;
+  height: 237px; }
+#ourmissionheader {
+  text-align: center;
+  margin: 0 auto;
+  width: 800px; }
+.givingimg img {
+  width: 100%;
+  height: auto; }
+.givingimg .giving3 img {
+  height: 100%; }
+.leftimage, .rightimage {
+  box-shadow: 3px 3px 5px grey;
+  margin-right: 15px;
+  float: left;
+  width: 240px;
+  height: auto; }
+.rightimage {
+  float: right;
+  margin: 15px 0 15px 15px; }
+.scholarshipcontent {
+  text-align: center; }
+.scholarshipcontent img {
+    width: 640px;
+    height: auto; }
+@media only screen and (max-width: 970px) {
+  #butterfly1, #butterfly2 {
+    display: none; }
+  .headerimg, #bigarc {
+    width: 96vw;
+    margin: 0 auto; }
+  #logo2, #logosmall, img:not(.exclude), .pic {
+    width: auto !important;
+    height: auto !important;
+    max-width: calc(60% - 275px);
+    min-width: 128px;
+    max-height: calc(70% - 439px); }
+  #logo2, #logosmall, #bigarc, #newsheader img {
+    max-width: 90%;
+    max-height: 80%; }
+  #event {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    width: 100vw !important;
+    height: 50vw !important;
+    max-width: 640px;
+    max-height: 364px; }
+  #eventpic {
+    max-width: 55vw;
+    max-height: 25vw; }
+  .selectioncontent img {
+    max-width: 275px; }
+  .pic {
+    min-width: 275px; }
+    .pic img {
+      margin-bottom: -15px;
+      width: 100% !important;
+      height: 100% !important;
+      max-width: 100% !important;
+      max-height: 100% !important; }
+  #newsheader {
+    min-height: 409px;
+    min-width: 90vw; }
+  .givingimg img {
+    max-width: 100%;
+    max-height: 100%;
+    min-width: 100%;
+    min-height: 100%; }
+  .scholarshipcontent img {
+    max-width: 80%; }
+  #family {
+    max-width: 70%; } }
+@media only screen and (max-width: 640px) {
+  .headerimg {
+    padding-top: 15px; }
+  #logosmall, img, .pic, .selectioncontent img, #shirt {
+    width: auto !important;
+    height: auto !important;
+    max-width: 40vw;
+    max-height: 70vw; }
+  #logosmall, #bigarc, #shirt {
+    max-width: 100%;
+    max-height: 90%; }
+  #eventpic {
+    max-width: 65vw;
+    max-height: 35vw; }
+  #newsheader img {
+    min-width: 95vw; }
+  .pic, .selectioncontent img {
+    min-width: 128px; }
+  #shirt {
+    min-width: 60vw; } }
+#logosmall {
+  width: 600px;
+  height: 362px; }
+header {
+  width: 100%; }
+header ul.main {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: row-reverse;
+            flex-direction: row-reverse;
+    list-style: none;
+    float: right;
+    text-align: center; }
+header ul.main li {
+      margin-top: 10px;
+      margin-left: 25px; }
+header ul.main .dropdown {
+      cursor: default; }
+header ul.main .dropdown ul {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column; }
+header ul.main .dropdown ul li {
+          display: none; }
+header ul.main .dropdown.open ul, header ul.main .dropdown:hover ul {
+        position: absolute;
+        width: 100px; }
+header ul.main .dropdown.open ul > li, header ul.main .dropdown.open ul a, header ul.main .dropdown:hover ul > li, header ul.main .dropdown:hover ul a {
+          margin-left: -25px;
+          width: 100px;
+          background: white;
+          display: block;
+          padding: 4px;
+          margin-top: -1px;
+          border: 1px solid grey; }
+header ul.main .dropdown.open ul > li:hover, header ul.main .dropdown.open ul a:hover, header ul.main .dropdown:hover ul > li:hover, header ul.main .dropdown:hover ul a:hover {
+            color: black;
+            background: #FF8300; }
+header ul.main .dropdown.open ul > li:last-of-type, header ul.main .dropdown.open ul a:last-of-type, header ul.main .dropdown:hover ul > li:last-of-type, header ul.main .dropdown:hover ul a:last-of-type {
+            border-bottom-left-radius: 20px;
+            border-bottom-right-radius: 20px; }
+header ul.main .dropdown.open ul > li:nth-of-type(2), header ul.main .dropdown.open ul a:nth-of-type(2), header ul.main .dropdown:hover ul > li:nth-of-type(2), header ul.main .dropdown:hover ul a:nth-of-type(2) {
+            border-top-left-radius: 20px;
+            border-top-right-radius: 20px; }
+header ul.main .dropdown.open ul a li, header ul.main .dropdown:hover ul a li {
+          margin: 2.5px 5px;
+          display: block; }
+header ul.main .dropdown.open ul a, header ul.main .dropdown:hover ul a {
+          padding: 0px; }
+header ul.main .dropdown.open ul a:nth-of-type(2), header ul.main .dropdown:hover ul a:nth-of-type(2) {
+            border-top-left-radius: 0px;
+            border-top-right-radius: 0px; }
+header ul.main .dropdown.open ul a:nth-of-type(1), header ul.main .dropdown:hover ul a:nth-of-type(1) {
+            border-top-left-radius: 20px;
+            border-top-right-radius: 20px; }
+header ul.main .dropdown.open ul .hide, header ul.main .dropdown.open ul .hide:hover, header ul.main .dropdown:hover ul .hide, header ul.main .dropdown:hover ul .hide:hover {
+          border: none;
+          background: none; }
+header ul.main .dropdown.open ul .subdropdown, header ul.main .dropdown:hover ul .subdropdown {
+          display: none; }
+header ul.main .dropdown.open ul .subdrop:hover .subdropdown, header ul.main .dropdown:hover ul .subdrop:hover .subdropdown {
+          display: block; }
+header .subdropdown {
+    display: none; }
+.donate {
+  margin-right: 30px; }
+@media only screen and (max-width: 970px) {
+  .logo1 {
+    display: none; }
+  div.hamburger {
+    width: 2em;
+    height: 2em;
+    padding: 0.5em;
+    background-color: #FF8300;
+    cursor: pointer;
+    margin: 10px 0 0 calc(100% - 1.5em - 35px); }
+    div.hamburger div {
+      background-color: white;
+      width: 2em;
+      height: 0.4em;
+      margin-bottom: 0.4em;
+      -webkit-transition: all 0.2s ease-out;
+      transition: all 0.2s ease-out; }
+    div.hamburger.open .top {
+      -webkit-transform: translateY(0.8em) rotate(45deg);
+              transform: translateY(0.8em) rotate(45deg); }
+    div.hamburger.open .mid {
+      opacity: 0; }
+    div.hamburger.open .bottom {
+      -webkit-transform: translateY(-0.8em) rotate(-45deg);
+              transform: translateY(-0.8em) rotate(-45deg); }
+  ul.main {
+    display: none !important; }
+  ul.mainopen {
+    background: white;
+    margin-right: 15px;
+    width: 60vw;
+    padding-left: 0px;
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+    -webkit-box-orient: vertical !important;
+    -webkit-box-direction: reverse !important;
+        -ms-flex-direction: column-reverse !important;
+            flex-direction: column-reverse !important;
+    list-style: none;
+    float: right;
+    text-align: center; }
+    ul.mainopen li {
+      border: 1px solid #FF8300;
+      padding: 10px 0;
+      margin: 0 !important;
+      margin-bottom: -1px  !important; }
+      ul.mainopen li:hover {
+        color: black;
+        background: #FF8300; }
+    ul.mainopen .topmenu {
+      border-top-right-radius: 20px;
+      border-top-left-radius: 20px; }
+    ul.mainopen .bottommenu {
+      border-bottom-right-radius: 20px;
+      border-bottom-left-radius: 20px; }
+    ul.mainopen .dropdown {
+      margin: 0 0 -1px 0 !important; }
+      ul.mainopen .dropdown div {
+        display: none; }
+      ul.mainopen .dropdown ul {
+        padding-left: 0px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column; }
+        ul.mainopen .dropdown ul li {
+          display: none; }
+      ul.mainopen .dropdown.open div, ul.mainopen .dropdown:hover div {
+        display: block; }
+      ul.mainopen .dropdown.open ul, ul.mainopen .dropdown:hover ul {
+        position: absolute;
+        margin-top: -30px !important;
+        right: calc(60vw + 0px);
+        width: 30vw  !important;
+        padding-top: 5px !important; }
+        ul.mainopen .dropdown.open ul > li, ul.mainopen .dropdown.open ul a, ul.mainopen .dropdown:hover ul > li, ul.mainopen .dropdown:hover ul a {
+          margin-left: 0px;
+          overflow: hidden;
+          width: 35vw !important;
+          background: white;
+          display: block;
+          padding: 8px  !important;
+          margin-top: -1px;
+          border: 1px solid grey; }
+          ul.mainopen .dropdown.open ul > li:hover, ul.mainopen .dropdown.open ul a:hover, ul.mainopen .dropdown:hover ul > li:hover, ul.mainopen .dropdown:hover ul a:hover {
+            color: black;
+            background: #FF8300; }
+          ul.mainopen .dropdown.open ul > li:last-of-type, ul.mainopen .dropdown.open ul a:last-of-type, ul.mainopen .dropdown:hover ul > li:last-of-type, ul.mainopen .dropdown:hover ul a:last-of-type {
+            border-bottom-left-radius: 20px;
+            border-bottom-right-radius: 20px; }
+          ul.mainopen .dropdown.open ul > li:nth-of-type(2), ul.mainopen .dropdown.open ul a:nth-of-type(2), ul.mainopen .dropdown:hover ul > li:nth-of-type(2), ul.mainopen .dropdown:hover ul a:nth-of-type(2) {
+            border-top-left-radius: 20px;
+            border-top-right-radius: 20px; }
+        ul.mainopen .dropdown.open ul a li, ul.mainopen .dropdown:hover ul a li {
+          border: none;
+          padding: 0px;
+          margin: 8px 10px !important;
+          display: block; }
+        ul.mainopen .dropdown.open ul a, ul.mainopen .dropdown:hover ul a {
+          padding: 0 !important;
+          margin: 0 !important; }
+          ul.mainopen .dropdown.open ul a:nth-of-type(2), ul.mainopen .dropdown:hover ul a:nth-of-type(2) {
+            border-top-left-radius: 0px;
+            border-top-right-radius: 0px; }
+          ul.mainopen .dropdown.open ul a:nth-of-type(1), ul.mainopen .dropdown:hover ul a:nth-of-type(1) {
+            border-top-left-radius: 20px;
+            border-top-right-radius: 20px; }
+        ul.mainopen .dropdown.open ul .hide, ul.mainopen .dropdown.open ul .hide:hover, ul.mainopen .dropdown:hover ul .hide, ul.mainopen .dropdown:hover ul .hide:hover {
+          border: none;
+          background: none; }
+        ul.mainopen .dropdown.open ul .subdropdown, ul.mainopen .dropdown:hover ul .subdropdown {
+          display: none; }
+        ul.mainopen .dropdown.open ul .subdrop:hover .subdropdown, ul.mainopen .dropdown:hover ul .subdrop:hover .subdropdown {
+          position: absolute;
+          right: 25px;
+          top: 65px;
+          display: block; }
+    ul.mainopen .donate {
+      margin-top: 5px !important;
+      margin-right: 0px; } }
+h2, h3, h4 {
+  text-align: center;
+  text-shadow: 0px 4px 6px rgba(0, 0, 0, 0.4); }
+.hide {
+  display: block; }
+#homecontent {
+  width: 640px;
+  margin: 0 auto; }
+.lastpic {
+  float: right;
+  overflow: hidden;
+  height: 300px; }
+#donatetop {
+  width: 60vw;
+  max-width: 1000px;
+  display: block;
+  margin: 0 auto; }
+#donatetop p {
+    width: calc(100% - 350px);
+    max-width: 600px;
+    margin-top: 5%;
+    float: right; }
+#donations form {
+  margin-top: 100px;
+  text-align: center; }
+input#button {
+  text-align: center;
+  margin: 0 auto;
+  font-size: 20px;
+  width: 170px;
+  height: 30px; }
+.otherdonation {
+  text-align: center; }
+.otherdonation#top {
+  margin-top: 50px; }
+.otherdonation#bottom, #b2 {
+  margin-top: -25px; }
+.otherdonation#b3 {
+  margin-top: -15px; }
+#eventcontent {
+  width: 640px;
+  margin: 0 auto; }
+#eventcontent p {
+    width: 640px; }
+#eventregister {
+  text-align: center;
+  margin: 0 auto;
+  width: 640px; }
+#eventregister p {
+    margin: 0 auto 15px auto; }
+#eventregister a {
+    padding-bottom: 50px; }
+div#contactinfo {
+  text-align: center;
+  width: 640px;
+  margin: -100px auto 0 auto; }
+div#contactinfo p {
+    margin-top: -25px; }
+div#contactinfo p.space {
+    margin-bottom: 40px; }
+#media2016 {
+  clear: right;
+  text-align: center;
+  width: 95vw;
+  margin: 0 auto;
+  padding-top: 25px; }
+#media2016 #videos {
+    margin: 0 auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 80%; }
+#media2016 #videos #vid1, #media2016 #videos #vid2 {
+      margin: 15px auto; }
+#mediabuttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 80%;
+  margin: 0px auto; }
+#mediabuttons a {
+    margin: 25px auto; }
+#newscontent {
+  margin: 0 auto;
+  width: 640px; }
+div#ourmissioncontent {
+  margin: 0 auto;
+  width: 640px; }
+#ourgivingcontent {
+  margin: 0 auto;
+  width: 640px; }
+ul.givingtext, ul.givingimg, ul.givingtrig {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0; }
+ul.givingtext li, ul.givingimg li, ul.givingtrig li {
+    box-shadow: 3px 3px 5px grey, inset 0 -1px 1px rgba(0, 0, 0, 0.5), inset 0 1px 1px rgba(255, 255, 255, 0.8);
+    border: 1px solid black;
+    list-style-type: none;
+    margin: 0 auto;
+    width: 200px;
+    height: 200px;
+    overflow: hidden; }
+ul.givingtext li:hover, ul.givingimg li:hover, ul.givingtrig li:hover {
+      cursor: pointer;
+      box-shadow: none; }
+ul.givingtext li.givingh, ul.givingimg li.givingh, ul.givingtrig li.givingh {
+    box-shadow: none;
+    border: none;
+    text-align: center;
+    height: auto;
+    margin-bottom: -25px; }
+.givingtext li {
+  padding: 0 5px;
+  border: 1px solid red; }
+.border {
+  padding: 15px;
+  border: 10px solid #FF8300;
+  border-radius: 15px;
+  box-shadow: 3px 3px 5px grey; }
+#triangle-up1, #triangle-up2, #triangle-up3 {
+  z-index: -1;
+  box-shadow: none;
+  margin-top: -50px;
+  margin-bottom: -24px;
+  width: 200px;
+  height: 0;
+  border-left: 40px solid transparent;
+  border-right: 40px solid transparent;
+  border-bottom: 80px solid #FF8300; }
+.recipiants {
+  margin: 0 auto; }
+.recipiants li {
+    margin: 0 auto;
+    text-align: center;
+    font-size: 1.2em;
+    list-style-type: none; }
+.hidet {
+  border-bottom: none !important; }
+.hide {
+  display: none; }
+.scholarshipcontent {
+  clear: left;
+  width: 95vw;
+  margin: 100px auto; }
+.scholarshipcontent p {
+    text-align: left;
+    width: 640px;
+    margin: 0 auto; }
+.scholarshipcontent img {
+    margin-bottom: 25px; }
+#sponsorcontent {
+  width: 640px;
+  margin: 50px auto; }
+.becomesponsor p {
+  text-align: center;
+  margin: 0; }
+.becomesponsor ul {
+  list-style-type: none;
+  font-size: 1.2em; }
+#shirtheader {
+  clear: left;
+  width: 60vw;
+  margin: 0 auto; }
+#shirtheader img {
+    width: 100%; }
+.shirtcontent {
+  text-align: center;
+  margin: 0 auto; }
+.shirtcontent p {
+    margin: 0; }
+.shirtcontent form {
+    display: block;
+    margin: 0 auto; }
+.shirtcontent form table {
+      margin: 0 auto; }
+.buy {
+  margin-top: 15px; }
+input[type=number] {
+  width: 35px; }
+.shirtcontent {
+  margin-bottom: 50px; }
+@media only screen and (max-width: 970px) {
+  #ourmissionheader {
+    width: 100vw;
+    margin: 0; }
+  #ourmissioncontent, #homecontent, #eventcontent, #eventregister, #newscontent, #contactinfo, #ourgivingcontent, #shirtcontent {
+    width: 90vw !important;
+    margin-bottom: 50px !important; }
+  #eventcontent p, .scholarshipcontent p {
+    width: 100%; }
+  #eventregister {
+    margin-bottom: 50px; }
+  #newsheader {
+    height: 409px;
+    padding-top: 15px; }
+  #contactinfo {
+    margin-top: 0 !important; }
+  #videos {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 100%; }
+  #mediabuttons p {
+    width: 10vw;
+    min-width: 80px;
+    max-width: 150px; }
+  #donatetop {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 95vw; }
+    #donatetop img {
+      margin: 0 auto; }
+    #donatetop p {
+      margin: 0 auto;
+      width: 60%;
+      margin-top: 5%;
+      float: right; }
+  #donations form {
+    margin-top: 0; } }
