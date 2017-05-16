@@ -121,12 +121,7 @@ module.exports = __webpack_require__.p + "_site/ourgiving.html";
 module.exports = __webpack_require__.p + "_site/ourmission.html";
 
 /***/ }),
-/* 9 */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__.p + "_site/scholarship.html";
-
-/***/ }),
+/* 9 */,
 /* 10 */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -154,9 +149,25 @@ __webpack_require__(5);
 __webpack_require__(6);
 __webpack_require__(7);
 __webpack_require__(8);
-__webpack_require__(9);
+__webpack_require__(16);
+__webpack_require__(17);
 __webpack_require__(10);
 __webpack_require__(11);
+
+/***/ }),
+/* 13 */,
+/* 14 */,
+/* 15 */,
+/* 16 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "_site/2016.html";
+
+/***/ }),
+/* 17 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "_site/2017.html";
 
 /***/ })
 /******/ ]);
