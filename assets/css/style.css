@@ -175,8 +175,6 @@ svg:not(:root) {
  * 2. Remove the margin in Firefox and Safari.
  */
 button, input, optgroup, select, textarea {
-  font-family: sans-serif;
-  /* 1 */
   font-size: 100%;
   /* 1 */
   line-height: 1.15;
@@ -478,9 +476,7 @@ header ul a {
   margin-top: 50px; }
 #eventheader img {
     margin-top: 0;
-    height: 500px;
-    width: 100%;
-    background: #E8FF0D; }
+    height: 350px; }
 #eventpic {
   padding-right: 15px;
   float: left;
@@ -494,13 +490,14 @@ header ul a {
   width: 285px;
   height: 222px; }
 #newsheader {
-  margin-top: 100px;
+  margin: 100px auto;
   text-align: center;
   clear: right;
+  width: 80%;
   background: black; }
 #newsheader img {
-    width: 45%;
-    max-width: 1200px;
+    width: 35%;
+    max-width: 640px;
     height: 409px;
     outline-offset: -30px; }
 #newspic1, #newspic2, #newspic3, #newspic4 {
@@ -971,6 +968,7 @@ ul.givingtext li.givingh, ul.givingimg li.givingh, ul.givingtrig li.givingh {
 .scholarshipcontent img {
     margin-bottom: 25px; }
 #quote {
+  width: 40%;
   float: right;
   font-style: italic; }
 #sponsorcontent {
