@@ -592,7 +592,7 @@ header ul a {
     min-width: 100%;
     min-height: 100%; }
   .scholarshipcontent img {
-    max-width: 80%; }
+    max-width: 40%; }
   #family {
     max-width: 70%; }
   #newsheader img {
@@ -617,7 +617,9 @@ header ul a {
   .pic, .selectioncontent img {
     min-width: 128px; }
   #shirt {
-    min-width: 60vw; } }
+    min-width: 60vw; }
+  .scholarshipcontent img {
+    max-width: 70%; } }
 #logosmall {
   width: 600px;
   height: 362px; }
