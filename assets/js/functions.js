@@ -41,4 +41,12 @@ $(document).ready(function(){
                 return false;
               };
     });
+    $("#dropdown1").click(function(){
+      $(".showelement").toggleClass("opensub");
+      $(".showelement2").removeClass("opensub");
+    });
+    $("#dropdown2").click(function(){
+      $(".showelement2").toggleClass("opensub");
+      $(".showelement").removeClass("opensub");
+    });
 });
