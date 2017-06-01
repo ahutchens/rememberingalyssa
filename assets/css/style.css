@@ -761,62 +761,62 @@ header .subdropdown {
         -webkit-box-orient: vertical;
         -webkit-box-direction: normal;
             -ms-flex-direction: column;
-                flex-direction: column; }
-        ul.mainopen .dropdown ul li {
-          display: none; }
-      ul.mainopen .dropdown.open div, ul.mainopen .dropdown:hover div {
-        display: block; }
-      ul.mainopen .dropdown.open ul, ul.mainopen .dropdown:hover ul {
+                flex-direction: column;
         position: absolute;
         margin-top: -30px !important;
         right: calc(60vw + 0px);
         width: 30vw  !important;
         padding-top: 5px !important; }
-        ul.mainopen .dropdown.open ul > li, ul.mainopen .dropdown.open ul a, ul.mainopen .dropdown:hover ul > li, ul.mainopen .dropdown:hover ul a {
+        ul.mainopen .dropdown ul > li, ul.mainopen .dropdown ul a {
           margin-left: 0px;
           overflow: hidden;
           width: 35vw !important;
           background: white;
-          display: block;
           padding: 8px  !important;
           margin-top: -1px;
-          border: 1px solid grey; }
-          ul.mainopen .dropdown.open ul > li:hover, ul.mainopen .dropdown.open ul a:hover, ul.mainopen .dropdown:hover ul > li:hover, ul.mainopen .dropdown:hover ul a:hover {
-            color: black;
-            background: #FF8300; }
-          ul.mainopen .dropdown.open ul > li:last-of-type, ul.mainopen .dropdown.open ul a:last-of-type, ul.mainopen .dropdown:hover ul > li:last-of-type, ul.mainopen .dropdown:hover ul a:last-of-type {
+          border: 1px solid grey;
+          display: none; }
+          ul.mainopen .dropdown ul > li:last-of-type, ul.mainopen .dropdown ul a:last-of-type {
             border-bottom-left-radius: 20px;
             border-bottom-right-radius: 20px; }
-          ul.mainopen .dropdown.open ul > li:nth-of-type(2), ul.mainopen .dropdown.open ul a:nth-of-type(2), ul.mainopen .dropdown:hover ul > li:nth-of-type(2), ul.mainopen .dropdown:hover ul a:nth-of-type(2) {
+          ul.mainopen .dropdown ul > li:nth-of-type(2), ul.mainopen .dropdown ul a:nth-of-type(2) {
             border-top-left-radius: 20px;
             border-top-right-radius: 20px; }
-        ul.mainopen .dropdown.open ul a li, ul.mainopen .dropdown:hover ul a li {
+        ul.mainopen .dropdown ul a li {
           border: none;
           padding: 0px;
-          margin: 8px 10px !important;
-          display: block; }
-        ul.mainopen .dropdown.open ul a, ul.mainopen .dropdown:hover ul a {
+          margin: 8px 10px !important; }
+        ul.mainopen .dropdown ul a {
           padding: 0 !important;
           margin: 0 !important; }
-          ul.mainopen .dropdown.open ul a:nth-of-type(2), ul.mainopen .dropdown:hover ul a:nth-of-type(2) {
+          ul.mainopen .dropdown ul a:nth-of-type(2) {
             border-top-left-radius: 0px;
             border-top-right-radius: 0px; }
-          ul.mainopen .dropdown.open ul a:nth-of-type(1), ul.mainopen .dropdown:hover ul a:nth-of-type(1) {
+          ul.mainopen .dropdown ul a:nth-of-type(1) {
             border-top-left-radius: 20px;
             border-top-right-radius: 20px; }
-        ul.mainopen .dropdown.open ul .hide, ul.mainopen .dropdown.open ul .hide:hover, ul.mainopen .dropdown:hover ul .hide, ul.mainopen .dropdown:hover ul .hide:hover {
-          border: none;
-          background: none; }
-        ul.mainopen .dropdown.open ul .subdropdown, ul.mainopen .dropdown:hover ul .subdropdown {
-          display: none; }
-        ul.mainopen .dropdown.open ul .subdrop:hover .subdropdown, ul.mainopen .dropdown:hover ul .subdrop:hover .subdropdown {
-          position: absolute;
-          right: 25px;
-          top: 65px;
-          display: block; }
+      ul.mainopen .dropdown.open div, ul.mainopen .dropdown:hover div {
+        display: block; }
+      ul.mainopen .dropdown.open ul > li:hover, ul.mainopen .dropdown.open ul a:hover, ul.mainopen .dropdown:hover ul > li:hover, ul.mainopen .dropdown:hover ul a:hover {
+        color: black;
+        background: #FF8300; }
+      ul.mainopen .dropdown.open ul a li, ul.mainopen .dropdown:hover ul a li {
+        display: block; }
+      ul.mainopen .dropdown.open ul .hide, ul.mainopen .dropdown.open ul .hide:hover, ul.mainopen .dropdown:hover ul .hide, ul.mainopen .dropdown:hover ul .hide:hover {
+        border: none;
+        background: none; }
+      ul.mainopen .dropdown.open ul .subdropdown, ul.mainopen .dropdown:hover ul .subdropdown {
+        display: none; }
+      ul.mainopen .dropdown.open ul .subdrop:hover .subdropdown, ul.mainopen .dropdown:hover ul .subdrop:hover .subdropdown {
+        position: absolute;
+        right: 25px;
+        top: 65px;
+        display: block; }
     ul.mainopen .donate {
       margin-top: 5px !important;
       margin-right: 0px; } }
+.opensub {
+  display: block !important; }
 h2, h3, h4 {
   text-align: center;
   text-shadow: 0px 4px 6px rgba(0, 0, 0, 0.4); }
