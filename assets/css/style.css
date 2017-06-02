@@ -1025,7 +1025,7 @@ input[type=number] {
   #ourmissionheader {
     width: 100vw;
     margin: 0; }
-  #ourmissioncontent, #homecontent, #eventcontent, #eventregister, #newscontent, #contactinfo, #ourgivingcontent, #shirtcontent {
+  #ourmissioncontent, #homecontent, #eventcontent, #eventregister, #newscontent, #contactinfo, #ourgivingcontent, .shirtcontent, #sponsorcontent {
     width: 90vw !important;
     margin-bottom: 50px !important; }
   #eventcontent p, .scholarshipcontent p {
@@ -1065,3 +1065,18 @@ input[type=number] {
       float: right; }
   #donations form {
     margin-top: 0; } }
+.lastpic {
+  width: 30vw;
+  overflow: none; }
+.lastpic img {
+    width: 30vw !important;
+    max-height: 100%;
+    max-width: 20vw !important; }
+.paypalbutton {
+  width: 1px !important;
+  height: 1px !important;
+  min-width: 1px !important; }
+.paypalform {
+  max-width: 500px;
+  width: 50vw !important;
+  border: 1px soilid red; }
