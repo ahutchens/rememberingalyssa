@@ -448,13 +448,13 @@ header ul a {
   width: 275px;
   height: 439px;
   display: block;
-  float: left;
+  float: left !important;
   padding-right: 15px; }
 .alyssa2 {
   width: 200px;
   height: 370px;
   display: block;
-  float: right;
+  float: right !important;
   padding-left: 15px; }
 .Superhero {
   width: 200px;
