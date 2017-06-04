@@ -558,7 +558,7 @@ header ul a {
   .headerimg, #bigarc {
     width: 96vw;
     margin: 0 auto; }
-  #logo2, #logosmall, img:not(.exclude), .pic {
+  #logo2, #logosmall, img:not(.exclude,.alyssa,.alyssa2,.Superhero), .pic {
     width: auto !important;
     height: auto !important;
     max-width: calc(60% - 275px);
