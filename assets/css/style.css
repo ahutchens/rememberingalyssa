@@ -597,7 +597,11 @@ header ul a {
     max-width: 70%; }
   #newsheader img {
     max-height: 100%;
-    min-width: 100vw; } }
+    min-width: 100vw; }
+  .Superhero {
+    max-width: 30vw !important;
+    min-width: 128px !important;
+    max-height: 350px !important; } }
 @media only screen and (max-width: 640px) {
   .headerimg {
     padding-top: 15px; }
