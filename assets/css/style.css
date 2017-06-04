@@ -601,7 +601,7 @@ header ul a {
   .Superhero {
     max-width: 30vw !important;
     min-width: 128px !important;
-    max-height: 350px !important; } }
+    max-height: 300px !important; } }
 @media only screen and (max-width: 640px) {
   .headerimg {
     padding-top: 15px; }
@@ -832,7 +832,7 @@ h2, h3, h4 {
 .lastpic {
   float: right;
   overflow: hidden;
-  height: 300px; }
+  margin: 0 0 1px 5px; }
 #donatetop {
   width: 60vw;
   max-width: 1000px;
