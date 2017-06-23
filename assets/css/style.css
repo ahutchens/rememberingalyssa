@@ -516,16 +516,16 @@ header ul a {
 #newspic2 img {
     width: 298px;
     height: 240px; }
-#newspic3 {
+#newspic3, #news4pic1 {
   width: 177px;
   height: 210px;
   float: left;
   margin-right: 20px; }
-#newspic3 img {
+#newspic3 img, #news4pic1 img {
     margin-top: -30px;
     width: 196px;
     height: 294px; }
-#newspic4 {
+#newspic4, #news4pic2 {
   float: right;
   width: 229px;
   height: 237px; }
@@ -552,6 +552,10 @@ header ul a {
 .scholarshipcontent img {
     width: 640px;
     height: auto; }
+.sponsorlogos {
+  text-align: center; }
+.sponsorlogos img {
+    max-width: 30%; }
 @media only screen and (max-width: 970px) {
   #butterfly1, #butterfly2 {
     display: none; }
@@ -884,6 +888,8 @@ input#button {
     margin: 0 auto 15px auto; }
 #eventregister a {
     padding-bottom: 50px; }
+.inform {
+  font-size: 1.5em; }
 div#contactinfo {
   text-align: center;
   width: 640px;
