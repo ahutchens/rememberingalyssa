@@ -410,6 +410,13 @@ ul #button {
   box-shadow: none; }
 header ul a {
   color: black; }
+.sponsordonation form {
+  margin-top: 15px !important; }
+#inform {
+  text-align: center;
+  width: 70%;
+  font-size: 1.2em;
+  margin: 15px auto; }
 #fb {
   width: 36px !important;
   height: 36px !important;
@@ -1016,6 +1023,8 @@ ul.givingtext li.givingh, ul.givingimg li.givingh, ul.givingtrig li.givingh {
 .becomesponsor ul {
   list-style-type: none;
   font-size: 1.2em; }
+.sponsorbuttons {
+  margin-bottom: 25px; }
 #shirtheader {
   clear: left;
   width: 60vw;
