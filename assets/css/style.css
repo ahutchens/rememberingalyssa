@@ -556,6 +556,8 @@ header ul a {
   text-align: center; }
 .sponsorlogos img {
     max-width: 30%; }
+.sponsorlogos .textlogo p {
+    font-size: 2em; }
 @media only screen and (max-width: 970px) {
   #butterfly1, #butterfly2 {
     display: none; }
@@ -889,7 +891,12 @@ input#button {
 #eventregister a {
     padding-bottom: 50px; }
 .inform {
-  font-size: 1.5em; }
+  font-size: 1.5em;
+  max-width: 80%;
+  margin: 0 auto; }
+.inform .red {
+    color: red;
+    text-decoration: underline; }
 div#contactinfo {
   text-align: center;
   width: 640px;
