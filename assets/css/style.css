@@ -560,8 +560,10 @@ header ul a {
     width: 640px;
     height: auto; }
 .sponsorlogos {
+  display: inline-block;
   text-align: center; }
 .sponsorlogos img {
+    vertical-align: middle;
     max-width: 30%; }
 .sponsorlogos .textlogo p {
     font-size: 2em; }
@@ -1017,12 +1019,14 @@ ul.givingtext li.givingh, ul.givingimg li.givingh, ul.givingtrig li.givingh {
 #sponsorcontent {
   width: 640px;
   margin: 50px auto; }
+.becomesponsor .becomesponsortext {
+  font-size: 1.3em;
+  font-weight: bold; }
 .becomesponsor p {
   text-align: center;
   margin: 0; }
 .becomesponsor ul {
-  list-style-type: none;
-  font-size: 1.2em; }
+  list-style-type: none; }
 .sponsorbuttons {
   margin-bottom: 25px; }
 .inform {
