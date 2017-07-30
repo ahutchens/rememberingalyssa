@@ -564,7 +564,7 @@ header ul a {
   text-align: center; }
 .sponsorlogos img {
     vertical-align: middle;
-    max-width: 30%; }
+    max-width: 160px; }
 .sponsorlogos .textlogo p {
     font-size: 2em; }
 @media only screen and (max-width: 970px) {
@@ -1019,9 +1019,6 @@ ul.givingtext li.givingh, ul.givingimg li.givingh, ul.givingtrig li.givingh {
 #sponsorcontent {
   width: 640px;
   margin: 50px auto; }
-.becomesponsor .becomesponsortext {
-  font-size: 1.3em;
-  font-weight: bold; }
 .becomesponsor p {
   text-align: center;
   margin: 0; }
@@ -1030,7 +1027,8 @@ ul.givingtext li.givingh, ul.givingimg li.givingh, ul.givingtrig li.givingh {
 .sponsorbuttons {
   margin-bottom: 25px; }
 .inform {
-  text-align: center; }
+  text-align: center;
+  width: 100%; }
 .textlogo {
   display: inline;
   margin: 0 15px; }
