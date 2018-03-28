@@ -567,6 +567,11 @@ header ul a {
     max-width: 160px; }
 .sponsorlogos .textlogo p {
     font-size: 2em; }
+img#shirt{
+   max-width: 70%;}
+img#hat:{
+   max-width: 30%;}
+
 @media only screen and (max-width: 970px) {
   #butterfly1, #butterfly2 {
     display: none; }
@@ -635,8 +640,7 @@ header ul a {
     min-width: 95vw; }
   .pic, .selectioncontent img {
     min-width: 128px; }
-  #shirt {
-    min-width: 60vw; }
+
   .scholarshipcontent img {
     max-width: 70%; } }
 #logosmall {
