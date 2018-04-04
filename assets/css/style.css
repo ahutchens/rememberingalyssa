@@ -568,9 +568,9 @@ header ul a {
 .sponsorlogos .textlogo p {
     font-size: 2em; }
 img#shirt{
-   max-width: 70%;}
+   max-width: 60%;}
 img#hat{
-   max-width: 30%;}
+   max-width: 40%;}
 
 @media only screen and (max-width: 970px) {
   #butterfly1, #butterfly2 {
