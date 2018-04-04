@@ -570,7 +570,10 @@ header ul a {
 img#shirt{
    max-width: 60%;}
 img#hat{
-   max-width: 40%;}
+   max-width: 40%;
+   float: right;
+   margin-top: 3%;
+}
 
 @media only screen and (max-width: 970px) {
   #butterfly1, #butterfly2 {
