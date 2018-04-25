@@ -564,7 +564,19 @@ header ul a {
   text-align: center; }
 .sponsorlogos img {
     vertical-align: middle;
-    max-width: 160px; }
+    max-width: 160px;
+}
+img #senior {
+   max-width: 250px;
+}
+img #vet {
+   max-width: 250px;
+   max-height: 100px;
+}
+img #demaran {
+   max-width: 290px;
+   max-height: 125px;
+}
 .sponsorlogos .textlogo p {
     font-size: 2em; }
 img#shirt{
