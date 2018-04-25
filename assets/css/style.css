@@ -566,14 +566,14 @@ header ul a {
     vertical-align: middle;
     max-width: 160px;
 }
-img #senior {
+img#senior {
    max-width: 250px;
 }
-img #vet {
+img#vet {
    max-width: 250px;
    max-height: 100px;
 }
-img #demaran {
+img#demaran {
    max-width: 290px;
    max-height: 125px;
 }
