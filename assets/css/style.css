@@ -880,6 +880,9 @@ h2, h3, h4 {
 #donations form {
   margin-top: 100px;
   text-align: center; }
+div#donations.sponsordonation {
+   margin-bottom: 75px;
+}
 input#button {
   position: absolute;
   text-align: center;
