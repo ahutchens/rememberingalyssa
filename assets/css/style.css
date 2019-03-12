@@ -1000,7 +1000,7 @@ ul.givingtext li.givingh, ul.givingimg li.givingh, ul.givingtrig li.givingh {
   border: 10px solid #FF8300;
   border-radius: 15px;
   box-shadow: 3px 3px 5px grey; }
-#triangle-up1, #triangle-up2, #triangle-up3 {
+#triangle-up1, #triangle-up2, #triangle-up3, #triangle-up4 {
   z-index: -1;
   box-shadow: none;
   margin-top: -50px;
