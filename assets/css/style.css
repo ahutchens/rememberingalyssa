@@ -966,7 +966,9 @@ div#ourmissioncontent {
   width: 640px; }
 #ourgivingcontent {
   margin: 0 auto;
-  width: 640px; }
+  width: 95vw;
+  max-width: 900px;
+}
 ul.givingtext, ul.givingimg, ul.givingtrig {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -977,8 +979,9 @@ ul.givingtext li, ul.givingimg li, ul.givingtrig li {
     border: 1px solid black;
     list-style-type: none;
     margin: 0 auto;
-    width: 200px;
+    width: 24vw;
     height: 200px;
+    margin-left: 5px;
     overflow: hidden; }
 ul.givingtext li:hover, ul.givingimg li:hover, ul.givingtrig li:hover {
       cursor: pointer;
