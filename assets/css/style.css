@@ -588,6 +588,9 @@ img#hat{
 }
 
 @media only screen and (max-width: 970px) {
+   .mobilehide {
+      display: none;
+   }
   #butterfly1, #butterfly2 {
     display: none; }
   .headerimg, #bigarc {
