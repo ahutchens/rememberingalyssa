@@ -53,7 +53,7 @@ $(document).ready(function(){
                 return false;
               };
     });
-    $("#dropdown3").click(function(){
+    $("#dropdown1").click(function(){
       $(".showelement").toggleClass("opensub");
       $(".showelement2").removeClass("opensub");
     });
