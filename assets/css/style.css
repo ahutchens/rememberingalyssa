@@ -683,6 +683,8 @@ header ul.main li {
       margin-left: 25px; }
 header ul.main .dropdown {
       cursor: default; }
+header .dropdown1 {
+   display: none; }
 header ul.main .dropdown ul {
         display: -webkit-box;
         display: -ms-flexbox;
