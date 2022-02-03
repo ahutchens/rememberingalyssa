@@ -683,8 +683,13 @@ header ul.main li {
       margin-left: 25px; }
 header ul.main .dropdown {
       cursor: default; }
-header ul.main #dropdown1 {
-   display: none; }
+/*header ul.main #dropdown1 {*/
+/*   display: none; }*/
+
+/* Hide Events/Alyssa's Ride/Shirt in dropdown*/
+ul.subdropdown :nth-child(4){
+  display: none!important;
+}
 header ul.main .dropdown ul {
         display: -webkit-box;
         display: -ms-flexbox;
