@@ -556,9 +556,6 @@ header ul a {
   margin: 15px 0 15px 15px; }
 .scholarshipcontent {
   text-align: center; }
-.scholarshipcontent img {
-    width: 640px;
-    height: auto; }
 .sponsorlogos {
   display: inline-block;
   text-align: center; }
@@ -630,8 +627,6 @@ img#hat{
     max-height: 100%;
     min-width: 100%;
     min-height: 100%; }
-  .scholarshipcontent img {
-    max-width: 40%; }
   #family {
     max-width: 70%; }
   #newsheader img {
@@ -658,10 +653,7 @@ img#hat{
   #newsheader img {
     min-width: 95vw; }
   .pic, .selectioncontent img {
-    min-width: 128px; }
-
-  .scholarshipcontent img {
-    max-width: 70%; } }
+    min-width: 128px; } }
 #logosmall {
   width: 600px;
   height: 362px; }
@@ -1039,18 +1031,16 @@ ul.givingtext li.givingh, ul.givingimg li.givingh, ul.givingtrig li.givingh {
     text-align: left;
     width: 640px;
     margin: 0 auto; }
-.scholarshipcontent img {
-    margin-bottom: 25px; }
+
+.scholarship-img{
+  max-width: 40vh;
+  max-height: 40vh;
+  margin-bottom: 1rem;
+}
 #quote {
   width: 40%;
   float: right;
   font-style: italic; }
-.weber {
-  height: 60vh !important;
-  width: auto !important; }
-.derek {
-  height: 40vh !important;
-  width: auto !important; }
 #sponsorcontent {
   width: 720px;
   margin: 50px auto; }
