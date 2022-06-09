@@ -680,6 +680,11 @@ ul.subdropdown :nth-child(4){
   display: none!important;
 }
 
+/* Hide Events/Alyssa's Ride/Register in dropdown*/
+ul.subdropdown :nth-child(2){
+  display: none!important;
+}
+
 header ul.main .dropdown ul {
         display: -webkit-box;
         display: -ms-flexbox;
