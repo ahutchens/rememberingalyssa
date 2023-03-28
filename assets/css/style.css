@@ -677,12 +677,12 @@ header ul.main .dropdown {
 
 /* Hide Events/Alyssa's Ride/Shirt in dropdown*/
 ul.subdropdown :nth-child(4){
-  display: none!important;
+  /*display: none!important;*/
 }
 
 /* Hide Events/Alyssa's Ride/Register in dropdown*/
 ul.subdropdown :nth-child(2){
-  display: none!important;
+  /*display: none!important;*/
 }
 
 header ul.main .dropdown ul {
