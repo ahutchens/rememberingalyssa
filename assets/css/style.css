@@ -677,7 +677,7 @@ header ul.main .dropdown {
 
 /* Hide Events/Alyssa's Ride/Shirt in dropdown*/
 ul.subdropdown :nth-child(4){
-  /* display: none!important; */
+    display: none!important;
 }
 
 /* Hide Events/Alyssa's Ride/Register in dropdown*/
@@ -1263,4 +1263,3 @@ input[type=number] {
   max-width: 250px;
   max-height: 250px;
 }
-
