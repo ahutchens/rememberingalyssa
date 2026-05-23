@@ -1263,3 +1263,7 @@ input[type=number] {
   max-width: 250px;
   max-height: 250px;
 }
+
+.achance {
+    padding-top: 2rem;
+}
