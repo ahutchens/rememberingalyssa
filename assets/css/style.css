@@ -1059,9 +1059,11 @@ ul.givingtext li.givingh, ul.givingimg li.givingh, ul.givingtrig li.givingh {
 
 
 #quote {
-  width: 40%;
+  width: 100%;
   float: right;
-  font-style: italic; }
+  font-style: italic;
+  text-align: right;
+ }
 #sponsorcontent {
   width: 720px;
   margin: 50px auto; }
