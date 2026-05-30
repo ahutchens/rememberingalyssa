@@ -1,15 +1,83 @@
 var clicked = false;
 
+function getTimeZoneOffset(date, timeZone) {
+    const formatter = new Intl.DateTimeFormat("en-US", {
+        timeZone: timeZone,
+        year: "numeric",
+        month: "2-digit",
+        day: "2-digit",
+        hour: "2-digit",
+        minute: "2-digit",
+        second: "2-digit",
+        hour12: false
+    });
+    const parts = formatter.formatToParts(date).reduce(function (result, part) {
+        if (part.type !== "literal") {
+            result[part.type] = part.value;
+        }
+
+        return result;
+    }, {});
+
+    return Date.UTC(
+        Number(parts.year),
+        Number(parts.month) - 1,
+        Number(parts.day),
+        Number(parts.hour),
+        Number(parts.minute),
+        Number(parts.second)
+    ) - date.getTime();
+}
+
+function createCutoffForTimeZone(year, month, day, hour, minute, timeZone) {
+    const utcGuess = Date.UTC(year, month - 1, day, hour, minute, 0);
+    const initialOffset = getTimeZoneOffset(new Date(utcGuess), timeZone);
+    const initialTimestamp = utcGuess - initialOffset;
+    const correctedOffset = getTimeZoneOffset(new Date(initialTimestamp), timeZone);
+
+    if (correctedOffset === initialOffset) {
+        return initialTimestamp;
+    }
+
+    return utcGuess - correctedOffset;
+}
+
+function createCentralCutoff(year, month, day, hour, minute) {
+    return createCutoffForTimeZone(year, month, day, hour, minute, "America/Chicago");
+}
+
+function createCentralCutoffFromLocalTime(year, month, day, hour, minute, localTimeZone) {
+    return createCutoffForTimeZone(
+        year,
+        month,
+        day,
+        hour,
+        minute,
+        localTimeZone || Intl.DateTimeFormat().resolvedOptions().timeZone
+    );
+}
+
 $(document).ready(function () {
-    const cutoff = Date.parse("2026-05-27T17:00:00Z");
-    const shirtsExpired = Date.now() >= cutoff;
+    const shirtsCutoff = createCentralCutoff(2026, 5, 27, 12, 0);
+    const registrationCutoff = createCentralCutoff(2026, 6, 12, 22, 0);
+    const shirtsExpired = Date.now() >= shirtsCutoff;
+    const registrationExpired = Date.now() >= registrationCutoff;
 
     if (shirtsExpired) {
         $('.subdropdown a[href="shirt.html"]').hide();
     }
 
+    if (registrationExpired) {
+        $('.subdropdown a[href="alyssaride.html"]').hide();
+        $('#eventregister a[href="registration.html"]').hide();
+    }
+
     if (shirtsExpired && window.location.pathname.toLowerCase().endsWith("/shirt.html")) {
         $(".shirtcontent").html("<h1>Shirt sales are now closed.</h1>");
+    }
+
+    if (registrationExpired && window.location.pathname.toLowerCase().endsWith("/registration.html")) {
+        $(".shirtcontent").html("<h1>Registration is now closed.</h1>");
     }
 
     $(".hamburger").click(function () {
