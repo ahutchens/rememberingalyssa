@@ -58,10 +58,10 @@ function createCentralCutoffFromLocalTime(year, month, day, hour, minute, localT
 }
 
 $(document).ready(function () {
-    const shirtsCutoff = createCentralCutoff(2026, 5, 27, 12, 0);
+    const shirtsCutoff = createCentralCutoff(2026, 6, 22, 23, 59);
     const registrationCutoff = createCentralCutoff(2026, 6, 12, 22, 0);
-    // const shirtsExpired = Date.now() >= shirtsCutoff;
-    const shirtsExpired = false;
+    const shirtsExpired = Date.now() >= shirtsCutoff;
+    // const shirtsExpired = false;
     const registrationExpired = Date.now() >= registrationCutoff;
 
     if (shirtsExpired) {
