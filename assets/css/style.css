@@ -556,26 +556,34 @@ header ul a {
   margin: 15px 0 15px 15px; }
 .scholarshipcontent {
   text-align: center; }
+  
 .sponsorlogos {
-  display: inline-block;
-  text-align: center; }
-.sponsorlogos img {
-    vertical-align: middle;
+	display: inline-block;
+	text-align: center;
+}
+.sponsor-grid {
+	display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 20px;
+    align-items: center;
+    justify-items: center;
+    width: 100%;
+}
+
+.sponsor-grid img {
+    display: block;
+    width: 100%;
+    height: 100%;
     max-width: 160px;
+    object-fit: contain;
 }
-img#senior {
-   max-width: 250px;
+
+@media only screen and (min-width: 641px) {
+	.sponsor-grid {
+		grid-template-columns: repeat(4, minmax(0, 1fr));
+	}
 }
-img#vet {
-   max-width: 250px;
-   max-height: 100px;
-}
-img#demaran {
-   max-width: 290px;
-   max-height: 125px;
-}
-.sponsorlogos .textlogo p {
-    font-size: 2em; }
+
 img#shirt{
    max-width: 60%;}
 img#hat{
@@ -594,7 +602,7 @@ img#hat{
   .headerimg, #bigarc {
     width: 96vw;
     margin: 0 auto; }
-  #logo2, #logosmall, img:not(.exclude,.alyssa,.alyssa2,.Superhero, .scholarship-img, .scholarship-img_container img), .pic {
+  #logo2, #logosmall, img:not(.exclude,.alyssa,.alyssa2,.Superhero, .scholarship-img, .scholarship-img_container img, .sponsor-grid img), .pic {
     width: auto !important;
     height: auto !important;
     max-width: calc(60% - 275px);
